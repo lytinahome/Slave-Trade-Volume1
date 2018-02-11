@@ -1,9 +1,0 @@
-the sav file "tastdb-exp-2010.sav" is downloaded from website on Aug 15 2016. This is the database from Eltis.
-
-the csv file "tastdb-exp-2010.csv" is the csv version of "tastdb-exp-2010.sav", converted by SPSS.
-
-the R file "8 embarkation.R" is the recoding program. this R program will generate three files:
-1. the venn diagram analysis for the Eltis database.
-2. "needed data_8.txt", the input data will be used in MCMC2 analysis.
-3. "8 embarkation.csv", includs all things in "needed data_8.txt" with the specific name of each region.
-
