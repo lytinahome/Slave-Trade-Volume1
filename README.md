@@ -1,4 +1,5 @@
-# This is the directory of the project Estimation of slave trade volume.
+### This is the directory of the project:
+# Estimation of slave trade volume.
 
 ## Step 1: Data Cleaning
 
