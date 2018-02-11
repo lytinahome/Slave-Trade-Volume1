@@ -1,7 +1,11 @@
 # This is the directory of the project Estimation of slave trade volume.
+
 ## Step 1: Data Cleaning
+
 **data scource: tastdb-exp-2010.sav**
+
 **R program: 8 embarkation.R**
+
 * perform basic data analysis of the dataset of tastdb-exp-2010.sav
 * recode the embarkation and disembarkation regions in tastdb-exp-2010.sav.
 * edit the odd records in data source.
@@ -15,6 +19,7 @@
   * slaarriv: captive arrivals by region and decade; calculated from recorded captive arrivals by port 
 
 **Output of the program**
+
 * **Figure 1. TASTD Voyages by Types of Documentation** fig_1.png
 * **Table 1. TASTDB Variables in the Analysis. Source: TASTDB 2010 codebook.**
 * **Table 2. TASTDB 2010 records by embarkation region, 1650s to 1860s.**
@@ -23,11 +28,14 @@
 
 ## Step 2: EDA
 **data scource: needed data_8.txt**
+
 **R program: check the assumption.R**
+
 * perform the initial data analysis of data, including basic summary of embarkation/disembarkation regions; missing pattern; classicification of records.
 * propose the constant flow assumption and validate it by simulation.
 
 **Output of the program**
+
 * **Table 4. WHCCDB records by embarkation region, 1650s to 1860s.**
 * **Table 5. WHCCDB records by arrival region, 1650s to 1860s.**
 * **Table 6. Sub-datasets for known data in WHCCDB-2017 dataset.**
@@ -42,23 +50,31 @@
 * *venn diagram.png*
 
 ## Step 3: Imputation of Regions
+
 **data scource: needed data_8.txt**
+
 **R program: impute region.R**
+
 * impute region info by multinomial model.
 
 **Output of the program**
+
 * **Table 8. Sub-datasets for known and imputed data in WHCCDB-2017 dataset.**
 * **Figure 9. Imputed voyage pattern for all documented voyages.**  fig_9.jpeg
 * **Figure 10. Known captive flows with imputed regions.**  fig_10.jpeg
 * *data_impute_region_1.txt*
 
 ## Step 4: Imputation of Populations
+
 **data scource: data_impute_region_1.txt**
+
 **R program: mcmc.R**
+
 * impute population info by mcmc model.
 * required files: mcmc.stan; generated files: data.tdump; 
 
 **Output of the program**
+
 * **Table 9. Parameters for Embarkations, Arrivals, and Loss Rates.** 
 * **Table 10. Estimated total flows of captives.**
 * **Figure 11. Overall estimation of Atlantic slave trade volume (from Table 10).**
