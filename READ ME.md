@@ -34,7 +34,7 @@
 * **Figure 2. Missing Data, by variable and by decade.**   fig_2.png
 * **Figure 4. Total known voyages by decade.**   fig_4.jpeg
 * **Table 7. Embarkation and arrival regions.**
-* **Figure 3. Voyage Pattern for Documented Routes. ** fig_3.jpeg
+* **Figure 3. Voyage Pattern for Documented Routes.** fig_3.jpeg
 * **Figure 5. Pattern of documented captive flows within calculated regions.**   fig_5.jpeg
 * **Figure 6a and 6b. Mean and sample distribution of voyages for two routes: Windward coast to Caribbean (3-2); Bight of Biafra to Spanish Mainland (6-3).** 
 * **Figure 7. Total documented embarkations, arrivals, and percentage loss: average by decade.**   fig_7.jpg
@@ -59,8 +59,8 @@
 * required files: mcmc.stan; generated files: data.tdump; 
 
 **Output of the program**
-* **Table 9. Parameters for Embarkations, Arrivals, and Loss Rates. ** 
-* **Table 10. Estimated total flows of captives. **
+* **Table 9. Parameters for Embarkations, Arrivals, and Loss Rates.** 
+* **Table 10. Estimated total flows of captives.**
 * **Figure 11. Overall estimation of Atlantic slave trade volume (from Table 10).**
 * **Table 11. Number of voyages for major routes, 1700 – 1860.**
 * *summary.xlsx*
