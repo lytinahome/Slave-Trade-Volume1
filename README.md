@@ -7,10 +7,10 @@
 
 **R program: 8 embarkation.R**
 
-* perform basic data analysis of the dataset of tastdb-exp-2010.sav
-* recode the embarkation and disembarkation regions in tastdb-exp-2010.sav.
-* edit the odd records in data source.
-* involve the following features as the output.
+* performed basic analysis of the dataset of tastdb-exp-2010.sav
+* recoded the embarkation and disembarkation regions in tastdb-exp-2010.sav.
+* edited the odd records in the data source.
+* involved the following features as the output:
   * voyageid: arbitrary voyage identification number; assigned by editors 
   * year10: decade; calculated and numbered serially from 1650s to 1860s 
   * majbyimp: region of embarkation; calculated, based on port data 
@@ -32,8 +32,8 @@
 
 **R program: check the assumption.R**
 
-* perform the initial data analysis of data, including basic summary of embarkation/disembarkation regions; missing pattern; classicification of records.
-* propose the constant flow assumption and validate it by simulation.
+* performed the initial data analysis, including basic summary of embarkation/disembarkation regions; missing pattern; classicification of records.
+* proposed the constant flow assumption and validate it by simulation.
 
 **Output of the program**
 
@@ -56,7 +56,7 @@
 
 **R program: impute region.R**
 
-* impute region info by multinomial model.
+* imputed region info by multinomial model.
 
 **Output of the program**
 
@@ -71,7 +71,7 @@
 
 **R program: mcmc.R**
 
-* impute population info by mcmc model.
+* imputed population info by mcmc model.
 * required files: mcmc.stan; generated files: data.tdump; 
 
 **Output of the program**
